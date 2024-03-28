@@ -1,0 +1,9 @@
+main {
+    padding: 10px;
+}
+
+@media screen AND (max-width: 913px) {
+    .smaller-gaps {
+        padding: 5px;
+    }
+}
