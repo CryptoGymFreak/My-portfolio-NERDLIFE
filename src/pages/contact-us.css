@@ -1,0 +1,25 @@
+#form-contact {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    place-items: center;
+}
+
+/* Mobile first */
+#form-contact {
+  width: 100%;
+}
+
+/* 768px width or wider */
+@media screen and (min-width: 768px) {
+    #form-contact {
+        width: 50%;
+    }
+  
+}
+@media screen and (min-width: 1080px) {
+    #form-contact {
+        width: 43%;
+    }
+  
+}
