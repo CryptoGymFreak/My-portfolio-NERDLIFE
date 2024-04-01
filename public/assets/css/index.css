@@ -7,3 +7,24 @@ main {
         padding: 5px;
     }
 }
+
+/* Controlling heights of flex elements */
+#root {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    --tw-bg-opacity: 1;
+    background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+nav {
+    height: 60px;
+    flex-basis: 60px;
+}
+main {
+    height: 100%;
+    flex-basis: 100%;
+}
+footer {
+    height: 80px;
+    flex-basis: 80px;
+}
